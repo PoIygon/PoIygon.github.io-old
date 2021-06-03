@@ -1,9 +1,12 @@
 ---
-name: bug report
+name: Bug report
 about: Help Polygon catch bugs!
-title: "Bug: "
-labels: "Bug"
+title: 'Bug: '
+labels: bug
+assignees: ''
+
 ---
+
 **Describe the bug**
 
 <!-- A clear and concise description of what the bug is. Please use screenshots if applicable. -->
