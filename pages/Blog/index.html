@@ -91,6 +91,24 @@
             text-align: center;
         }
 
+        .footer .lists {
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: center;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-evenly;
+            align-content: center;
+            align-items: baseline;
+        }
+
     </style>
   </head>
   <body> 
@@ -104,8 +122,9 @@
     <div class="container">
         <h1 style=" text-align: center;">eeeeeeeeeeeeeeeeee</h4>
     </div>
-    <footer>
-        <ul>
+    <footer class="footer">
+        <div class="lists">
+            <ul>
             &nbsp;
             <li>
                 <h4>Pages</h4>
@@ -144,7 +163,7 @@
                 <h4>About</h4>
                 <p>PoIygon is a scratch user that is active on the forum and is learning how to make websites</p>
             </li>
-        </ul>
+        </ul></div>
     </footer>
   </body>
 </html>
