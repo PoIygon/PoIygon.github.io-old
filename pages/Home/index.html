@@ -34,34 +34,6 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <script>
-        var texts = new Array();
-        texts.push("Yeah number one victory royal yeah fortnite were bout to get down");
-        texts.push("this website is hosted on computer that is in my basement");
-        texts.push("this text thing was inspired by shefwerld");
-        texts.push("i am getting really bored what should i put here");
-        texts.push("brockoli");
-        texts.push("no");
-        texts.push("scratch is kewl");
-        texts.push("is that how you get respected by the st?");
-        texts.push("haha stinky poo poo");
-        texts.push("fdreerf is probably at 9th place on shefwerld");
-
-        var point = 0;
-
-        function changeText(){
-        $('h3').html(texts[point]);
-        if(point < texts.length - 1){
-            point ++;
-        }else{
-            point = 0;
-        }
-        setTimeout(changeText, 5000)
-        }
-
-        $changeText();
-    </script>
     <style>
         body {
             margin: 0;
@@ -139,6 +111,13 @@
             color: #E4E4E4;
             text-align: center;
         }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
     </style>
   </head>
   <body> 
@@ -153,9 +132,9 @@
 </br>
 </br>
     <div class="container">
-        <div id="textswap" style=" text-align: center;"></div>
+        <h1 id="textswap" style=" text-align: center;">Welcome to the stupidest website!</h1>
         </br>
-        <img src="/resources/images/people.png" style="width: 622; height: 311;">
+        <img src="/resources/images/people.png" width="622" height="311" class="center">
     </div>
   </body>
 </html>
