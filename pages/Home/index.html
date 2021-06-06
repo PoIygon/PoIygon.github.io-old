@@ -51,16 +51,15 @@
         var point = 0;
 
         function changeText(){
-        ('#textswap').html(texts[point]);
-        if(point < ( texts.length - 1 ) ){
-            point++;
+        $('h3').html(texts[point]);
+        if(point < texts.length - 1){
+            point ++;
         }else{
             point = 0;
         }
-        
+        setTimeout(changeText, 5000)
         }
-        
-        setInterval(changeText, 5000); /*Call it here*/
+
         changeText();
     </script>
     <style>
