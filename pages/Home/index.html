@@ -34,6 +34,34 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <script>
+        var texts = new Array();
+        texts.push("Yeah number one victory royal yeah fortnite were bout to get down");
+        texts.push("this website is hosted on computer that is in my basement");
+        texts.push("this text thing was inspired by shefwerld");
+        texts.push("i am getting really bored what should i put here");
+        texts.push("brockoli");
+        texts.push("no");
+        texts.push("scratch is kewl");
+        texts.push("is that how you get respected by the st?");
+        texts.push("haha stinky poo poo");
+        texts.push("fdreerf is probably at 9th place on shefwerld");
+
+        var point = 0;
+
+        function changeText(){
+        $('#textswap').html(texts[point]);
+        if(point < ( texts.length - 1 ) ){
+            point++;
+        }else{
+            point = 0;
+        }
+        
+        }
+        
+        setInterval(changeText, 5000); /*Call it here*/
+        changeText();
+    </script>
     <style>
         body {
             margin: 0;
@@ -117,7 +145,9 @@
 </br>
 </br>
     <div class="container">
-        <h1 style=" text-align: center;">Hoem</h1>
+        <h1 id="textswap" style=" text-align: center;"></h1>
+    </br>
+        <img src="/resources/images/people.png" style="width: 100%; text-align: center;">
     </div>
   </body>
 </html>
