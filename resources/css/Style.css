@@ -41,10 +41,9 @@ body {
     background-color: #94c6ff;
     outline-width: 10px;
     outline-color: #56f;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 8px 20px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
  /* unvisited link */
