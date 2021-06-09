@@ -20,6 +20,7 @@ body {
 .footer {
     background-image: radial-gradient(#00ff9d, #00ffbf);
     box-shadow: 0 0 3px rgb(0 0 0 / 25%);
+    width: 100%;
 }
 
 .footer #lists {
