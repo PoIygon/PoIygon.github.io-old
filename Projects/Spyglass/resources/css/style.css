@@ -10,6 +10,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    margin: 0px;
 }
 
 .inner {
@@ -21,6 +22,7 @@ body {
     background-image: radial-gradient(#00ff9d, #00ffbf);
     box-shadow: 0 0 3px rgb(0 0 0 / 25%);
     width: 100%;
+    margin: 0;
 }
 
 .footer #lists {
