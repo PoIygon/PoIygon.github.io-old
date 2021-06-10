@@ -36,9 +36,26 @@
     <link rel="stylesheet" href="/resources/css/Style.css">
     <style>
         #information {
-            position: absolute;
-            top: 10px;
-            right: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            outline: medium;
+            border-radius: .5rem;
+            flex-grow: 2;
+        }
+
+
+        #top {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #text {
+            flex-grow: 8;
+        }
+
+        #information p {
+            text-align: center;
         }
     </style>
   </head>
@@ -55,14 +72,16 @@
     <br>
     <br>
     <div class="container">
-        <h1 id="textswap" style=" text-align: center;">Welcome to my website!</h1>
-        <br>
-        <img src="/resources/images/people.png" class="center" id="img">
-        </br>
-        <section>
-            <div id="picture">
-                <img src="/resources/images/jeffery.png"
-            </div>
+        <section id="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni a enim neque illo optio accusantium autem, cupiditate quod harum dolore cumque sit, recusandae repellendus possimus dolor. Eum, corporis mollitia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus exercitationem et quisquam laborum nihil voluptates delectus, atque consectetur ea blanditiis magni, aliquid, architecto qui ipsum libero animi rerum est! 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptates, facere mollitia accusamus voluptas numquam aperiam ex consequuntur harum. Similique quaerat inventore maiores magnam quidem dolores asperiores natus deserunt autem?
+            </p>
+        </section>
+        <section id="information">
+            <img src id="/resources/images/jeffery.png">
+            <p>jeffery is 22 years old</p>
+            <p>status: single</p>
         </section>
     </div>
     <footer class="footer">
