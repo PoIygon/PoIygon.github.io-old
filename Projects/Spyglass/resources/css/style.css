@@ -2,7 +2,12 @@ body {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #bbb;
-    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .nav {
