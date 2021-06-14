@@ -30,7 +30,6 @@ li a {
     transition: 0.2s;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     transition-timing-function: ease;
     transition: 0.2s;
