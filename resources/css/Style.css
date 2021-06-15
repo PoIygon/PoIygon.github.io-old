@@ -28,6 +28,7 @@ li a {
     text-decoration: none;
     transition-timing-function: ease;
     transition: 0.2s;
+    font-weight: normal;
 }
 
 li a:hover {
@@ -57,4 +58,10 @@ button {
     border: solid lightblue 5px;
     padding: .25rem7;
     margin-top: 5px
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4983ff;
 }
