@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Home</title>
         <link rel="icon" type="image/png" href="/resources/images/logo.png">
-        <link rel="stylesheet" href="poIygon.leahcimto.com/resources/css/style.css">
+        <link rel="stylesheet" href="https://poIygon.leahcimto.com/resources/css/style.css">
         <style>
             body {
                 color: white;
@@ -79,7 +79,7 @@
                 color: #4983ff;
             }
 
-            .contactimage {
+            .image {
                 border-radius: 0.5em;
                 margin: 0 0.5em;
                 text-align: center;
@@ -89,6 +89,31 @@
             .wrapper {
                 width: 350px;
                 margin: 0 auto;
+            }
+
+            #ocular {
+                display: flex;
+                flex-direction: row;
+            }
+
+            #ocular .information {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #ocular .information h2, #ocular .information p {
+                margin: auto 0;
+                margin-left: 1em;
+            }
+
+            #ocular .information .status {
+                border: 3.5px #b2d1ff dotted;
+                border-radius: 0.5em;
+                padding: 0.25em 0.5em;
+            }
+
+            .small {
+                font-size: 0.75rem;
             }
         </style>
     </head>
@@ -117,19 +142,24 @@
             <br>
             <h3>"Im an idiot"<br> - Polygon</h3>
         </div>
-        <div class="section">
-            <h1>About</h1>
-            <p>Hello! Im &nbsp;<a href="https://scratch.mit.edu/users/PoIygon">Polygon</a>. Im a person on scratch that goes on the forums and rarely makes projects on scratch.</p>
-            <p>i have 149 love-its, 101 favorites and 1,735 views. I have over 1k posts on the scratch discussion forums and a former the forum helpers member.</p>
+        <div class="section" id="about">
+            <script src="/resources/js/fetch2.js"></script>
         </div>
         <div class="section">
             <h1>Contact</h1>
             <p>if you want to stalk me then here is my contant links</p>
             <div class="wrapper">
-                <a href="https://www.youtube.com/channel/UCqfwKyhE8gDnVXBjhn5cfgw"><img class="contactimage" src="/resources/images/youtubecontact.png" alt="Youtube Contact" width="64"></a>
-                <a href="https://scratch.mit.edu/users/PoIygon"><img class="contactimage" src="/resources/images/scratchcontact.png" alt="Scratch Contact" width="64"></a>
-                <a href="https://www.roblox.com/users/1388254021/profile"><img class="contactimage" src="/resources/images/robloxcontact.png" alt="Roblox Contact" width="64"></a>
-                <a href="https://twitter.com/OneMiWay"><img class="contactimage" src="/resources/images/twittercontact.png" alt="Twitter Contact" width="64"></a>
+                <a href="https://www.youtube.com/channel/UCqfwKyhE8gDnVXBjhn5cfgw"><img class="image" src="/resources/images/youtubecontact.png" alt="Youtube Contact" width="64"></a>
+                <a href="https://scratch.mit.edu/users/PoIygon"><img class="image" src="/resources/images/scratchcontact.png" alt="Scratch Contact" width="64"></a>
+                <a href="https://www.roblox.com/users/1388254021/profile"><img class="image" src="/resources/images/robloxcontact.png" alt="Roblox Contact" width="64"></a>
+                <a href="https://twitter.com/OneMiWay"><img class="image" src="/resources/images/twittercontact.png" alt="Twitter Contact" width="64"></a>
+            </div>
+        </div>
+        <div class="section">
+            <h1>Ocular stats</h1>
+            <p>this is my ocular status and stuff</p>
+            <div id="ocular">
+                <script src="/resources/js/fetch.js"></script>
             </div>
         </div>
         <div class="section">
