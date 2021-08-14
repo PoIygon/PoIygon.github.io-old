@@ -1,0 +1,15 @@
+.date {
+    color: #999;
+}
+
+li.post>h2 {
+    margin-bottom: 0;
+}
+
+.posts {
+    color: var(--theme-text-colour);
+}
+
+h1, .back {
+    margin: 3em 0;
+}
