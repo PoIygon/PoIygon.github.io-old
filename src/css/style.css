@@ -39,6 +39,12 @@ a:hover {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* navbar css */
 nav {
     position: sticky;
@@ -46,7 +52,7 @@ nav {
     border-bottom: 1px solid var(--theme-colour);
 }
 
-ul {
+nav>ul {
     list-style: none;
     padding: 0;
     margin: 0;
