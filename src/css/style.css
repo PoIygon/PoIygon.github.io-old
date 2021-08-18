@@ -45,6 +45,19 @@ ul {
     margin: 0;
 }
 
+/* scrollbar */
+
+/* chrome */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: var(--theme-colour);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--theme-background-colour);
+}
+
 /* navbar css */
 nav {
     position: sticky;
