@@ -1,16 +1,30 @@
 :root {
     --theme-colour: #50f;
-    --theme-background-colour: #eee;
-    --theme-text-colour: #333;
+    --theme-background-colour: linear-gradient(to right top, #5500ff, #ff00a6, #ff3658, #ffad34, #f9f872);;
+    --theme-text-colour: #eee;
     --theme-text-colour-secondary: #90f;
 }
 
 /* normal css */
 body {
-    background-color: var(--theme-background-colour);
-    color: var(--theme-text-colour);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: var(--theme-background-colour);
+    background-size: 500% 500%;
+    color: var(--theme-text-colour);
+    animation: move 15s ease infinite;
     margin: 0;
+}
+
+@keyframes move {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .wrapper {
@@ -61,8 +75,7 @@ ul {
 /* navbar css */
 nav {
     position: sticky;
-    background-color: var(--theme-background-colour);
-    border-bottom: 1px solid var(--theme-colour);
+    background-color: transparent;
 }
 
 nav>ul {
@@ -88,4 +101,14 @@ nav>ul>li>a {
     color: var(--theme-text-colour);
     text-decoration: none;
     font-weight: normal;
+}
+
+/* blog css */
+
+li.post>* {
+    margin-bottom: 0.75em;
+}
+
+.back {
+    margin: 3em 0;
 }
