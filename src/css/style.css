@@ -33,11 +33,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     color: var(--theme-colour);
     font-weight: bold;
 }
 
 a {
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     color: var(--theme-colour);
     font-weight: bold;
     text-decoration: underline;
@@ -79,6 +81,7 @@ nav {
 }
 
 nav>ul {
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     list-style: none;
     padding: 0;
     margin: 0;
