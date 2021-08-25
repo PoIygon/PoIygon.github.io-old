@@ -11,17 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
     <script>
-        // make a list and every 5 seconds, change the innerhtml of #yeet to the next item in the list
         var list = [
-            "check out my youtube channel over <a href="/redirect/youtube.html">here!</a>",
-            "check out my scratch account over <a href="/redirect/scratch.html">here!</a>",
-            "check out my roblox account over <a href="/redirect/roblox.html">here!</a>",
-            "check out my twitter account over <a href="/redirect/twitter.html">here!</a>",
+            "please view one of my videos on my youtube channel over <a href='/redirect/youtube.html'>here!</a> for videos once a month",
+            "check out my scratch account over <a href='/redirect/scratch.html'>here!</a> so you can see really bad projects",
+            "see my roblox account over <a href='/redirect/roblox.html'>here!</a> so you know when im off scratch",
+            "check out my twitter account over <a href='/redirect/twitter.html'>here!</a> for intresting tweets",
         ];
         setInterval(function() {
             document.getElementById("yeet").innerHTML = list[list.length - 1];
             list.push(list.shift());
         }, 5000);
+
     </script>
     <style>
         .eee {
