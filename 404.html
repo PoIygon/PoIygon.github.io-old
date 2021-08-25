@@ -10,6 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <script>
+        // make a list and every 5 seconds, change the innerhtml of #yeet to the next item in the list
+        var list = [
+            "check out my youtube channel over <a href="/redirect/youtube.html">here!</a>",
+            "check out my scratch account over <a href="/redirect/scratch.html">here!</a>",
+            "check out my roblox account over <a href="/redirect/roblox.html">here!</a>",
+            "check out my twitter account over <a href="/redirect/twitter.html">here!</a>",
+        ];
+        setInterval(function() {
+            document.getElementById("yeet").innerHTML = list[list.length - 1];
+            list.push(list.shift());
+        }, 5000);
+    </script>
     <style>
         .eee {
             font-size: 7.5em;
@@ -27,7 +40,7 @@
     </nav>
     <div class="wrapper">
         <h1 class="eee">404</h1>
-        <p>Looks like this page doesnt exist, while you here can you listen to one of my videos over <a href="https://www.youtube.com/channel/UCqfwKyhE8gDnVXBjhn5cfgw">here</a> because that would help me get more views on youtube</p>
+        <p id="yeet"></p>     
     </div>
 </body>
 </html>
