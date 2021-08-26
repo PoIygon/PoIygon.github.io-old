@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -61,6 +61,17 @@ ul {
     margin: 0;
 }
 
+/* flex directions */
+.right {
+    flex-direction: row;
+    display: flex;
+}
+
+.down {
+    flex-direction: column;
+    display: flex;
+}
+
 /* scrollbar */
 
 /* chrome */
@@ -71,7 +82,7 @@ ul {
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: var(--theme-background-colour);
+    background-color: transparent;
 }
 
 /* navbar css */
